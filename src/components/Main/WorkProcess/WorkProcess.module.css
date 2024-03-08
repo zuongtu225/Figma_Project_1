@@ -1,0 +1,54 @@
+.workProcessWrapper {
+  background: var(--five-color);
+  height: 988px;
+  top: 620px;
+  padding: 300px;
+  gap: 10px;
+}
+.workProcess {
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.workProcess__left {
+  font-family: var(--main-font);
+}
+.workProcess__left .title {
+  font-family: var(--main-font);
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.workProcess__right {
+  width: 648px;
+  height: 600px;
+  display: flex;
+  gap: 20px;
+}
+.card {
+  font-family: var(--main-font);
+  width: 312px;
+  height: 276px;
+  padding: 32px;
+  border-radius: 12px;
+  background: var(--first-color);
+}
+.cardContent .title {
+  font-weight: 600;
+}
+.content {
+  color: var(--six-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.cardIcon {
+  width: 70px;
+  height: 70px;
+  padding: 22px;
+  border-radius: 6px;
+}

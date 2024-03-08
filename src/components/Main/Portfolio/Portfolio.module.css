@@ -1,0 +1,63 @@
+.portfolioWrapper {
+  background: var(--first-color);
+}
+.portfolioHead {
+  font-family: var(--main-font);
+  text-align: center;
+}
+.portfolioHead .title {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: 0em;
+}
+.content {
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: var(--six-color);
+}
+
+.card {
+  background-color: var(--first-color);
+  border-radius: 8px;
+  box-shadow: var(--box-shadow);
+}
+.card img:first-child {
+  width: 100%;
+}
+.cardContent {
+  font-family: var(--main-font);
+  width: 360px;
+  height: 164px;
+}
+.cardContent .title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.portfolioFoot {
+  padding-left: 45%;
+}
+.projectWrapper {
+  padding: 70px 35%;
+  text-align: center;
+  font-family: var(--main-font);
+  background-color: var(--eight-color);
+}
+.projectWrapper .title {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: var(--first-color);
+}
+.projectWrapper .content {
+  color: var(--nine-color);
+}
+.workTogether {
+  padding-left: 33%;
+}

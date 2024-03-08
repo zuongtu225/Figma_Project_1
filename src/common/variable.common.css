@@ -1,0 +1,32 @@
+:root {
+  --font-poppins: "Poppins";
+  --first-color: #ffffff;
+  --second-color: #1e1e1e;
+  --third-color: #edd8ff;
+  --fourth-color: #697484;
+  --five-color: #f0f1f3;
+  --six-color: #556070;
+  --seven-color: #edd8ff;
+  --eight-color: #132238;
+  --nine-color: #a5acb5;
+  --ten-color: #445062;
+  --eleven-color: #e6e8eb;
+  --twelve-color: #2b384c;
+  --thirteen-color: #f0f1f3;
+  --main-color: #a53dff;
+  --main-font: "Work Sans";
+  --bg-first: linear-gradient(
+    90deg,
+    rgba(242, 242, 224, 0.202) 1%,
+    rgba(239, 239, 228, 0.355) 61%
+  );
+  --bg-main: linear-gradient(
+    90deg,
+    rgba(241, 241, 241, 1) 1%,
+    rgba(255, 255, 255, 1) 43%,
+    rgba(192, 235, 237, 1) 67%,
+    rgba(241, 220, 239, 1) 86%
+  );
+  --box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}

@@ -1,0 +1,74 @@
+.blogWrapper {
+  background: var(--bg-main);
+}
+.blogHead {
+  text-align: center;
+}
+.blogHead .title {
+  font-family: var(--font-poppins);
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: 0em;
+  color: var(--second-color);
+}
+.blogHead .content {
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: var(--six-color);
+  font-family: var(--main-font);
+}
+.blogBody {
+  gap: 20px;
+}
+.card {
+  width: 312px;
+  height: 350px;
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: var(--first-color);
+  border-radius: 8px;
+  box-shadow: var(--box-shadow);
+}
+.card img {
+  width: 100%;
+}
+.cardContent {
+  font-family: var(--main-font);
+}
+.cardContent .content {
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.title {
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: var(--six-color);
+  font-family: var(--main-font);
+}
+.blogFoot {
+  padding-left: 47%;
+  width: 100%;
+  height: 100px;
+}
+.dotContainer {
+  width: 70px;
+  height: 8px;
+  gap: 12px;
+}
+.dot:first-child {
+  width: 30px;
+  height: 8px;
+  background: var(--second-color);
+  border-radius: 100px;
+}
+.dot {
+  width: 8px;
+  height: 8px;
+  background: var(--nine-color);
+  border-radius: 5px;
+}

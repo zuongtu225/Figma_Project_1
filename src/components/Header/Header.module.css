@@ -1,0 +1,40 @@
+header {
+  background: var(--first-color);
+  font-family: var(--main-font);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  width: 208px;
+  height: 56px;
+}
+.logo__icon {
+  width: 56px;
+  height: 56px;
+  font-size: 24px;
+  padding: 10px 20px;
+  border-radius: 50%;
+  color: var(--first-color);
+  font-family: var(--font-poppins);
+  background-color: var(--main-color);
+}
+.logo_title {
+  color: var(--second-color);
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+  font-family: var(--main-font);
+}
+ul {
+  display: flex;
+  list-style: none;
+}
+ul li {
+  padding: 12px 24px;
+}

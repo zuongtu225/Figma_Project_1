@@ -1,0 +1,65 @@
+.mySkillWrapper {
+  background: var(--five-color);
+  height: 876px;
+  top: 620px;
+  padding: 150px 300px;
+  gap: 10px;
+}
+.mySkill {
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.mySkill__left {
+  font-family: var(--main-font);
+}
+.mySkill__left .title {
+  font-family: var(--main-font);
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.mySkill__right {
+  width: 648px;
+  height: 576px;
+}
+.card {
+  position: relative;
+  font-family: var(--main-font);
+  width: 648px;
+  height: 176px;
+  padding: 32px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: var(--first-color);
+}
+.card:first-child {
+  box-shadow: var(--box-shadow);
+}
+.cardContent .title {
+  font-weight: 600;
+}
+.content {
+  color: var(--six-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.cardIcon {
+  width: 70px;
+  height: 70px;
+  padding: 22px;
+  border-radius: 6px;
+}
+.wall {
+  width: 5px;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  background: var(--main-color);
+}
